@@ -54,6 +54,6 @@ p{
 @media (max-width: 380px){
 	.nav-link a{
 		display: inline-block;
-/*		margin: px 30px 0px 0px;*/
+		margin: 0 auto;
 	}
 }
