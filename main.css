@@ -17,6 +17,10 @@ body{
 	color: white;
 }
 
+.box{
+	text-align: center;
+}
+
 .my_picture{
 	width: 200px;
 	height: 200px;
@@ -47,9 +51,9 @@ p{
 .nav-link a:hover{
 	text-decoration: underline;
 }
-@media (max-width: 550px){
+@media (max-width: 380px){
 	.nav-link a{
-		display: block;
-		margin: 15px 30px 0px 0px;
+		display: inline-block;
+/*		margin: px 30px 0px 0px;*/
 	}
 }
