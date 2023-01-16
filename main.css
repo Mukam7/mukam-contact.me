@@ -51,9 +51,9 @@ p{
 .nav-link a:hover{
 	text-decoration: underline;
 }
-@media (max-width: 380px){
+@media (max-width: 400px){
 	.nav-link a{
-		display: inline-block;
-		margin: 0 auto;
+		margin-right: 30px;
+	
 	}
 }
