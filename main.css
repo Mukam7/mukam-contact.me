@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Courgette&family=Rowdies&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Rowdies', cursive;
+}
+body{
+	overflow: hidden;
+	background-color: #3C99DC;
+}
+
+.container{
+	max-width: 1340px;
+	margin: 0 auto;
+	padding: 0 15px;
+	color: white;
+}
+
+.my_picture{
+	width: 200px;
+	height: 200px;
+	margin-top: 50px;
+	border-radius: 50%;
+	border: 5px solid white;
+}
+
+h1{
+	padding-top: 50px;
+	font-size: 36px;
+}
+
+p{
+	padding-top: 20px;
+	font-size: 18px;
+}
+
+.nav-link{
+	margin-top: 20px;
+}
+.nav-link a{
+	color: white;
+	padding-left: 35px;
+	text-decoration: none;
+	font-size: 20px;
+}
+.nav-link a:hover{
+	text-decoration: underline;
+}
+@media (max-width: 550px){
+	.nav-link a{
+		display: block;
+		margin: 15px 30px 0px 0px;
+	}
+}
